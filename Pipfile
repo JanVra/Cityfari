@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+ipykernel = "*"
+scikit-learn = "*"
+plotly = "*"
+nbformat = "*"
+scikit-learn-extra = "*"
+geojson = "*"
+shapely = "*"
+networkx = "*"
+pyroutelib3 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
