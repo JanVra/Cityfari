@@ -23,7 +23,7 @@ https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-data
 Preprocessed Data by Pietro Colombo:
 https://medium.com/analytics-vidhya/data-mining-of-geolife-dataset-560594728538
 
-OpenStreetMap Data via Overpass Turbo with query:
+OpenStreetMap Data via Overpass Turbo with query based on Bejing:
 
 ```
 [out:json][timeout:25];
