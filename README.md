@@ -15,3 +15,24 @@ Future Outlook:
 - gamification through achievement badges and sustainability scores
 - community-made scavenger hunts with high scores
 - extending AI capabilities to relief creator work-load
+
+
+# Data Sources and Disclaimer
+https://www.microsoft.com/en-us/research/publication/geolife-gps-trajectory-dataset-user-guide/
+
+Preprocessed Data by Pietro Colombo:
+https://medium.com/analytics-vidhya/data-mining-of-geolife-dataset-560594728538
+
+OpenStreetMap Data via Overpass Turbo with query:
+
+```
+[out:json][timeout:25];
+// gather results
+(
+  node["tourism"]({{bbox}});
+  node["name:"]({{bbox}});
+);
+out body;
+>;
+out skel qt;
+```
