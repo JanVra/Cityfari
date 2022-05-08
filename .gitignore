@@ -3,3 +3,4 @@ data\Geolife Trajectories 1.3.zip
 .Rproj.user
 
 src\tilescache
+*.csv
