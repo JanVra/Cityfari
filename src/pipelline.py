@@ -1,5 +1,4 @@
 #%%
-from distutils.command.build import build
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -104,7 +103,7 @@ def build_tour(node, p_G, n = 5):
         elif len(restricted) == 1:
             restricted = [restricted.pop()]
 
-        next_node = random.choice(list(restricted))
+        next_node = random.choice(list(restricted)) # this can be done via heuristics
         tour.add_node(node, name = node)
         tour.add_edge(node, next_node)
         node = next_node
